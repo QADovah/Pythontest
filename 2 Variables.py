@@ -35,23 +35,8 @@ print(len(my_variable))
 #Variables en una sola linea. 
 nombre, apellido, alias, edad = "Federico", "Astray", "Kala", 38
 print (nombre, apellido, alias, edad)
-print("mi nombre es", nombre, "Mi apellido es", apellido, "en la calle\n me dicen", alias, "Y tengo", edad ,"años")
 
-
-print(nombre)
-print(edad)
-
-nombre = input("Identifiques con el nombre")
-edad = input("Ingrese la edad")
-print("Gracias")
-
-
+nombre = input("Identifiques con el nombre:")
+edad = input("Ingrese la edad:")
 address: str = "Sanchez 2011"
-
-print(address)
-
-#Sarasa modificado
-#D.\INTEC
-asda
-
-#a
+print("Gracias, usted ha sido identificado como:", nombre, apellido, "con el alias de:", alias, "y actualmente tiene", edad, "años de edad, y la dirección asignada como constante es:", address)
